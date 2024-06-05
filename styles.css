@@ -60,6 +60,7 @@ header .social-icon img {
 .content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .bookmarks, .friends {
@@ -99,30 +100,14 @@ header .social-icon img {
     font-size: 0.9rem;
 }
 
-.profile-picture img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-}
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
 
-.bookmark-icon img, .friend-icon img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.profile-picture img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.bookmark-icon img, .friend-icon img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
+    .bookmarks, .friends {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
