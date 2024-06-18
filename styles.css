@@ -50,12 +50,14 @@ header a {
 
 header .social-icon {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 header .social-icon img {
     width: 24px;
     height: 24px;
-    margin: 0 5px;
 }
 
 .content {
@@ -64,30 +66,30 @@ header .social-icon img {
     flex-wrap: wrap;
 }
 
-.bookmarks, .friends {
+.bookmarks, .projects {
     width: 45%;
 }
 
-.bookmark-item, .friend-item {
+.bookmark-item, .project-item {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.bookmark-icon, .friend-icon {
+.bookmark-icon, .project-icon {
     width: 40px;
     height: 40px;
     margin-right: 10px;
 }
 
-.bookmark-icon img, .friend-icon img {
+.bookmark-icon img, .project-icon img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.bookmark-item h3, .friend-item p {
+.bookmark-item h3, .project-item p {
     margin: 0;
     font-weight: bold;
 }
@@ -97,7 +99,7 @@ header .social-icon img {
     color: #666;
 }
 
-.friend-item p {
+.project-item p {
     font-size: 0.9rem;
 }
 
@@ -107,7 +109,7 @@ header .social-icon img {
         flex-direction: column;
     }
 
-    .bookmarks, .friends {
+    .bookmarks, .projects {
         width: 100%;
         margin-bottom: 20px;
     }
