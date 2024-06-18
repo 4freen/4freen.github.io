@@ -44,7 +44,7 @@ header h1 {
 }
 
 header a {
-    color: #333;
+    color: inherit; /* Same color as text */
     text-decoration: underline;
 }
 
@@ -101,6 +101,11 @@ header .social-icon img {
     margin-top: 4px;
     color: #666;
     font-size: 0.9rem;
+}
+
+.project-item a {
+    color: inherit; /* Same color as text */
+    text-decoration: underline;
 }
 
 /* Media Query for smaller screens */
