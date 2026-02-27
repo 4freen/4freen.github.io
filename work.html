@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Afreen Siraj - Work & Projects portfolio. A curated collection of professional work and creative side projects.">
+    <meta name="author" content="Afreen Siraj">
+    <title>Work - Afreen Siraj</title>
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Work - Afreen Siraj">
+    <meta property="og:description"
+        content="A curated collection of my professional work, side projects, and creative explorations.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://afreen.me/projects.html"> <!-- Recommended placeholder -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R5CZ1EWS2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4R5CZ1EWS2');
+    </script>
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header-wrapper">
+        <nav class="header container">
+            <a href="index.html" class="logo-container" aria-label="Afreen Siraj Home">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
+                <span class="logo-text">Afreen Siraj</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="work.html" class="nav-link active">Work</a></li>
+                <li>
+                    <a href="#" class="nav-link resume-link" target="_blank" rel="noopener noreferrer">
+                        Resume
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="section container">
+            <div class="grid-12">
+                <div style="grid-column: 1 / 9;">
+                    <h1 class="hero-h1">Work</h1>
+                    <p class="hero-subtitle">A curated collection of my professional work, side projects, and creative
+                        explorations through photography and writing.</p>
+                </div>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="project-filters" data-ga-action="filter_click" data-ga-label="project_categories">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="product">Product</button>
+                <button class="filter-btn" data-filter="project">Project</button>
+                <button class="filter-btn" data-filter="passion">Passion</button>
+            </div>
+
+            <!-- Projects Grid (3 Column similar to Home) -->
+            <div class="projects-grid">
+
+                <article class="project-item" data-category="project" data-ga-action="project_view" data-ga-label="view_vitalyze">
+                    <a href="vitalyze.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="vitalyze.jpg" alt="Vitalyze" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">project</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">Vitalyze</h3>
+                            <p class="project-item-desc">My approach to product management is rooted in the intersection of user empathy and system scalabili...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="product" data-ga-action="project_view" data-ga-label="visa">
+                    <a href="scapia-visa.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="scapia-visa.jpg" alt="Visa" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">product</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">Visa</h3>
+                            <p class="project-item-desc">Optimizing the last-mile logistics and booking flows for seamless customer and agent experiences via...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="product" data-ga-action="project_view" data-ga-label="train">
+                    <a href="scapia-train.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="scapia-train.jpg" alt="Train" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">product</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">Train</h3>
+                            <p class="project-item-desc">Leveraging historical data and machine learning principles to accurately predict waitlist confirmati...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="product" data-ga-action="project_view" data-ga-label="cheq">
+                    <a href="cheq-bill-fetch.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="cheq-bill-fetch.jpg" alt="CheQ" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">product</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">CheQ</h3>
+                            <p class="project-item-desc">Building robust parsing engines to fetch and synthesize bill details automatically from SMS and emai...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="passion" data-ga-action="project_view" data-ga-label="product_digest">
+                    <a href="the-product-digest-substack.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="the-product-digest-substack.jpg" alt="The Product Digest" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">passion</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">The Product Digest</h3>
+                            <p class="project-item-desc">An in-depth exploration into how modern tech products balance affluence signals with affordability c...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="passion" data-ga-action="project_view" data-ga-label="match2">
+                    <a href="match-2-game.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="match-2-game.jpg" alt="Match 2 Game" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">passion</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">Match 2 Game</h3>
+                            <p class="project-item-desc">A fun, interactive Match 2 game built to experiment with delightful micro-interactions and intricate...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="product" data-ga-action="project_view" data-ga-label="instamart">
+                    <a href="swiggy-instamart.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="swiggy-instamart.jpg" alt="Swiggy Instamart" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">product</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">Swiggy Instamart</h3>
+                            <p class="project-item-desc">Building scalable search architecture and relevance tuning for 10-minute grocery delivery guarantees...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="product" data-ga-action="project_view" data-ga-label="delivery_partner">
+                    <a href="swiggy-delivery-partner.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="swiggy-delivery-partner.jpg" alt="Swiggy Delivery Partner" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">product</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">Swiggy Delivery Partner</h3>
+                            <p class="project-item-desc">Designing the rideguide experience to optimize delivery routes, reduce cognitive load on partners, a...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="product" data-ga-action="project_view" data-ga-label="super">
+                    <a href="swiggy-super.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="swiggy-super.jpg" alt="Swiggy Super" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">product</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">Swiggy Super</h3>
+                            <p class="project-item-desc">Driving retention and loyalty through a comprehensive subscription offering with zero delivery fees ...</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-item" data-category="project" data-ga-action="project_view" data-ga-label="goodreads">
+                    <a href="goodreads-ux-review.html" style="display:block;">
+                        <div class="project-visual">
+                            <img src="goodreads-ux-review.jpg" alt="Goodreads UX Review" loading="lazy">
+                            <span class="tag outline" style="position: absolute; top: 1rem; right: 1rem; text-transform: uppercase;">project</span>
+                        </div>
+                        <div class="project-item-content">
+                            <h3 class="project-item-title">Goodreads UX Review</h3>
+                            <p class="project-item-desc">A comprehensive teardown of the Goodreads experience, proposing a modernized, user-centric redesign ...</p>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Case Study Link Section Structure matches Home layout for consistency-->
+        <section class="section case-study container" style="border-top: none; padding-top: 2rem;">
+            <div class="grid-12">
+                <!-- Spacer to align elements to 8 column -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-wrapper">
+        <div class="footer container">
+            <div class="grid-12">
+                <div class="footer-col" style="grid-column: 1 / 4;">
+                    <span class="footer-label">Current</span>
+                    <span>Solo Product Builder</span>
+                </div>
+                <div class="footer-col" style="grid-column: 4 / 10;">
+                    <span class="footer-label">Past</span>
+                    <span>Product Manager at Scapia, CheQ, Swiggy Instamart</span>
+                </div>
+                <div class="footer-copy">
+                    &copy; 2026 Afreen Siraj
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
